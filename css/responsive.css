@@ -1,0 +1,53 @@
+@media (max-width: 425px){
+body{
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+    .center-container{
+        flex-direction: column;
+    }
+
+    .left-card{
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    .left-card > h1{
+        font-size: 15px;
+    }
+
+    .computerSVG{
+        width: 70%;
+    }
+
+    .right-login{
+        align-items: center;
+        border-radius: 0px 0px 20px 20px;
+    }
+
+    .card-login{
+        padding: 10px 20px 15px 20px;
+        margin: 0;
+        width: 100%;
+        align-items: center;
+    }
+
+    .card-login > h1{
+        width: 100%;
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;   
+    }
+
+    .text-field{
+        width: 100%;
+        align-items: center;
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .text-field > input{
+        width: 100%;
+        box-sizing: border-box;
+    }
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <script src="https://kit.fontawesome.com/ad36ce3de9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="main-login">
+        <div class="center-container">
+            <div class="left-login">
+                <div class="left-card">
+                    <h1>Faça Acontecer!</h1>
+                    <ul class="paragrafos">
+                        <i class="fa-solid fa-check"></i>
+                        <li>Descubra o que há de novo</li>
+                    </ul>
+                    <ul class="paragrafos">
+                        <i class="fa-solid fa-check"></i>
+                        <li>Desperte ideias</li>
+                    </ul>
+                    <ul class="paragrafos">
+                        <i class="fa-solid fa-check"></i>
+                        <li>Realize sonhos!</li>
+                    </ul>
+                    <img src="src/computer.svg" class="computerSVG" alt="computer-photo">
+                </div>
+            </div>
+            <div class="right-login">
+                <div class="card-login">
+                    <h1>Entre na sua conta</h1>
+                    <div class="text-field">
+                        <label for="usuario">Usuário</label>
+                        <input type="text" name="usuario" placeholder="example@login.com" id="inputUsuario">
+                        <span class="underline"></span>
+                    </div>
+                    <div class="text-field">
+                        <label for="senha">Senha</label>
+                        <input type="password" name="senha" placeholder="Str0ngP4ssw0rd!" id="inputSenha">
+                        <span class="underline"></span>
+                    </div>
+                    <button class="login-button">LOGIN</button>
+                    <div class="otherLogin">
+                        <div class="orLine">
+                            <div class="underlineBtn">
+                                <span class="line"></span>
+                            </div>
+                            <span class="otherLoginTitle">or</span>
+                            <div class="underlineBtn">
+                                <span class="line"></span>
+                            </div>
+                        </div>
+                        <div class="buttons">
+                            <!-- ELE VAI DAR ESSE "ERRO" NO LINK MAS É APENAS ERRO VISUAL NO CÓDIGO-->
+                            <button onclick="window.open('https://www.google.com.br/?hl=pt-BR', '_blank');" class="loginButtonGoogle">
+                                <i class="devicon-google-plain"></i>
+                            </button>
+                            <button onclick="window.open('https://www.google.com.br/?hl=pt-BR', '_blank');" class="loginButtonFacebook">
+                                <i class="devicon-facebook-plain"></i>
+                            </button>
+                            <button onclick="window.open('https://www.google.com.br/?hl=pt-BR', '_blank');" class="loginButtonLinkedin">
+                                <i class="devicon-linkedin-plain"></i>
+                            </button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
