@@ -4,7 +4,7 @@ body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
     box-shadow: inset 0px -10px 40px #00000056;
-    background: url('/src/image.png');
+    background: url("../src/image.png");
     background-size: cover;
 
 }
